@@ -1,0 +1,128 @@
+/* 
+    Created on : 14 mag 2020, 13:42:41
+    Author     : Alessandro Giaquinto
+*/
+.recensility-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 70px;
+  top: 100px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.recensility-modal-close {
+  color: White;
+  background-color: Red;
+  float: right;
+  font-size: 18px;
+  font-weight: bolder;
+  border:1px solid Red;
+  padding: 0px 4px 2px;
+}
+
+.recensility-modal-close:hover,
+.recensility-modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: White;
+  color: Red;
+}
+
+/* Modal Header */
+.recensility-modal-header {
+  padding: 0px 6px;
+  background-color: #fff;
+  margin-top: -12px;
+  text-align: center;
+  font-size: small;
+}
+
+/* Modal Header Warning */
+.recensility-modal-header-warning {
+  padding: 0px 4px;
+  background-color: Red;
+  color: White;
+}
+
+/* Modal Body */
+.recensility-modal-body {
+  padding: 12px;
+}
+
+/* Modal Footer Warning */
+.recensility-modal-footer-warning {
+  padding: 0px 4px;
+  background-color: Red;
+  color: White;
+}
+
+/* Modal Footer */
+.recensility-modal-footer {
+  padding: 0px 4px;
+  background-color: #fff;
+  margin-bottom: -12px;
+  
+}
+
+.recensility-modal-spec {
+  color:White;
+}
+
+/* Modal Content */
+.recensility-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  box-shadow: 24px 24px 24px rgba(0,0,0,0.40);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+.recensility-modal-insert-border{
+  border: 2px solid #2f6d43;
+}
+
+.recensility-modal-delete-border{
+  border: 2px solid red;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.recensility-modal-insert-element{
+    color: #2f6d43;
+    font-weight: bold;
+    background-color: #eee;
+    margin: 5px 30px;
+}
+
+
+.recensility-system-form-grid-container{
+    margin: 0px;
+    /*border: 1px solid #2f6d43;*/
+    /*padding: 2px 4px;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: max-content;
+}
+
+.recensility-form-correct{
+    margin-left: 35.5%;
+    color: #000;
+}
+
+.recensility-modal-into-title{
+    display: contents;
+}

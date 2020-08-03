@@ -1,0 +1,296 @@
+/* 
+    Created on : 16 set 2019, 21:36:10
+    Author     : ale
+*/
+
+    .recensility-system-main-header {
+    height: 67px;
+    position: fixed;
+    top: 30px;
+    left: 160px;
+    background: #FFF;
+    right: 0;
+    z-index: 9980;
+    }
+
+    .recensility-system-main-header p.recensility-system-header-links {
+    margin: 0;
+    font-size: .7rem;
+    position: absolute;
+    right: 26%;
+    padding: 3px 24px;
+    border-bottom-left-radius: 5px;
+    z-index: 1;
+    }
+    
+    .recensility-system-main-header .recensility-system-logo__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    line-height: 1.2;
+    font-size: 1rem;
+    padding-left: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    }
+    
+    .recensility-system-pages-menu {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    }
+    
+    .recensility-system-main-header .recensility-system-logo {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    }
+    
+    .recensility-system-pages-menu-a {
+    padding: 0 8px;
+    height: 77px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    }
+    
+    .recensility-system-pages-menu-a:hover {
+      color: #0073aa;
+    }
+    
+    .dashicons, .dashicons-before:before {
+    font-family: dashicons;
+    display: contents;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+    }
+    
+    .recensility-system-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+    .recensility-system-li {
+      float: left;
+    }
+
+    .recensility-system-li a {
+      color: #2f6d43;
+      text-align: center;
+      padding: 0px 5px;
+      text-decoration: none;
+    }
+    
+    .RM-tab-content {
+      box-shadow: -40px 20px 40px 20px rgba(0,0,0,0.20);
+      margin-top: 75px;
+    }
+    
+    .RM-tab-content > .RM-tab-panel{
+        width: 100%;
+        display: none;
+    }
+    
+    .RM-tab-content > .RM-tab-panel.active{
+        display: block;
+    }
+      
+    .recensility-system-body-container{
+        height: max-content;
+        display: flow-root;
+        width: 100%;
+    }
+    
+       
+    .recensility-system-color-plugin{
+        background-color: #2f6d43;
+        color: White;
+    }
+    .recensility-system-color-widget{
+        color: #2f6d43;
+        background-color: White;
+    }
+    
+    .recensility-system-body-grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 16px;
+    }
+    
+    .recensility-system-body-grid-item{
+        padding: 4px;
+        text-align: justify;
+    }
+    
+    .recensility-system-body-grid-container{
+        margin: 0px;
+        border: 1px solid #2f6d43;
+        padding: 2px 4px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        width: max-content;
+    }
+     
+    .recensility-system-body-table-container{
+        margin: 0px;
+        /*border: 1px solid #2f6d43;
+        padding: 2px 4px;*/
+        /*display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;*/
+        width: max-content;
+    }
+    
+    .recensility-system-body-grid-container-title{
+        background: #2f6d43;
+	color: #fff;
+	padding: 2px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 4px;
+    }
+        
+    #wpfooter {
+	position: relative !important;
+	display: none !important;
+    }
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      /*border-left: 1px dotted black;*/
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 500px;
+      background-color: black;
+      color: #fff;
+      text-align: justify;
+      border-radius: 15px;
+      padding: 10px;
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: 18px;
+      height: auto;
+      font-weight: bolder;
+      font-size: 18px;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    
+    .recensility-system-body-grid-container-rows-item{
+       font-size: 14px; 
+       text-align: justify;
+       padding-right: 4px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+       border-bottom: 1px solid #fff;
+    }
+    
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 0px 4px;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: center;
+        background-color: #2f6d43;
+        color: white;
+    }
+    
+    .tooltiplist {
+        list-style: disc;
+        margin-left: 15px;
+    }
+    
+    .recensility-system-body-submit{
+        border: 1px solid #fff;
+        font-size: 14px;
+        background-color: #2f6d43;
+        color: #fff;
+        font-weight: bolder;
+        padding: 5px;
+        border-radius: 15%;
+    }
+    
+    .recensility-system-body-delete{
+        border: 1px solid #fff;
+        font-size: 14px;
+        background-color: red;
+        color: #fff;
+        font-weight: bolder;
+        padding: 5px;
+        border-radius: 15%;
+    }
+    
+    .recensility-system-body-input{
+       background: #eee !important;
+       color: #2f6d43 !important;
+       font-size: 14px !important;
+       font-weight: bolder !important;
+    }
+    
+    .recensility-system-special-settings{
+        margin-top: 5px;
+    }
+    
+    .recensility-system-body-select{
+       background-color: #eee !important;
+       width: 99%;
+       color: #2f6d43 !important;
+       font-weight: bold; 
+    }
+    
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid white;
+    }
+    
+    .dot-container{
+        margin: 1px 41%;
+    }
