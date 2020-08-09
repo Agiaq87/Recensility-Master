@@ -28,7 +28,7 @@ class ColorsFest {
     }
     
     protected function init(){
-        $this->colors = RMQ_get_colors($this->Q);
+        $this->colors = $wpdb->get_results('SELECT * FROM `'.$wpdb->prefix.'recensility_color_fest`');
         $this->length = count($this->colors);
         
         foreach ( $this->colors as $color ){
